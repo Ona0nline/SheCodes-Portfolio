@@ -1,3 +1,16 @@
+:root{
+  --orange-web: #FFAE03;
+  --fulvous: #E67F0D;
+  --aerospace-orange: #FE4E00;
+  --chilli-red: #E9190F;
+  --rose: #FF0F80;
+
+}
+
+body{
+  background-color: var(--fulvous);
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -113,6 +126,35 @@
   font-style: normal;
 }
 
+.playfair-display-head {
+  font-family: "Playfair Display head", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 h1{
-  font-family: "Playfair Display";
+  font-family: "Playfair Display head";
+  text-align: center;
+  font-size:80px;
+  
+
+}
+
+p{
+  text-align: center;
+
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+}
+.contact-btn{
+  text-align: center;
+  
+  background-color: var(--rose);
+  padding:10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px var(--chilli-red);
 }
