@@ -172,3 +172,10 @@ p{
 .container{
   transform: translateY(400px);
 }
+
+li a{
+  text-decoration: none;
+  margin: auto 10px;
+  color:black;
+  font-family: "Playfair Display";
+}
